@@ -88,7 +88,7 @@ The app provides an interactive interface for real-time traffic sign recognition
 1. Image Upload: Users can upload `.jpg`, `.jpeg`, or `.png` files.
 2. Real-Time Prediction: The app predicts the class label with high confidence.
 3. Confidence Scores: Displays confidence scores for all classes (optional).
-4. Deployment URL: [Streamlit App URL](#) *(Replace with your actual URL)*
+4. Deployment URL: [Streamlit App URL](https://traffic-sign-recognition-using-mobilenetv2.streamlit.app/)
 
 ---
 
@@ -96,7 +96,7 @@ The app provides an interactive interface for real-time traffic sign recognition
 #### Local Setup:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/traffic_sign_recognition.git
+   git clone https://github.com/nainesh-20/traffic_sign_recognition.git
    ```
 2. Install dependencies:
    ```bash
@@ -108,7 +108,7 @@ The app provides an interactive interface for real-time traffic sign recognition
    ```
 
 #### Online Access:
-Visit the deployed app at [Streamlit App URL](#).
+Visit the deployed app at [Streamlit App URL](https://traffic-sign-recognition-using-mobilenetv2.streamlit.app/).
 
 ---
 
@@ -157,4 +157,3 @@ Citations:
 [20] https://universe.roboflow.com/mohamed-traore-2ekkp/gtsdb---german-traffic-sign-detection-benchmark
 
 ---
-Answer from Perplexity: pplx.ai/share
