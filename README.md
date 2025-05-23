@@ -260,7 +260,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 ```
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 **Key Insights:**
 - **Total Classes**: 43 different traffic sign categories
@@ -407,7 +407,7 @@ plt.show()
 ### Loss Analysis
 The training process demonstrated excellent convergence with no signs of overfitting:
 
-![Training vs Validation Loss](image-1.png)
+![Training vs Validation Loss](/img/image-1.png)
 
 **Key Observations:**
 - **Validation loss consistently lower** than training loss
