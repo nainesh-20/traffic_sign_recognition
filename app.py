@@ -9,7 +9,7 @@ model = mobilenet_v2(weights=None)  # No pre-trained weights since we're loading
 model.classifier[1] = torch.nn.Linear(model.last_channel, 43)  # Replace with number of classes
 
 # Load fine-tuned weights
-model.load_state_dict(torch.load("mobilenet_v2_traffic_signs.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("best_model.pth", map_location=torch.device('cpu')))
 model.eval()
 
 
